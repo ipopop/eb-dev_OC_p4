@@ -14,7 +14,7 @@
 
 > just a Web Dev student exercice
 
-### 🏠 [Homepage](https://ipopop.github.io/OC-P4-cool-agency/index.html)
+### 🏠 [Homepage Live](https://ipopop.github.io/OC-P4-cool-agency/index.html)
 
 ### ✨ [Slides présentation](https://slides.com/ipopop/soutenance-p4/fullscreen)
 
@@ -39,7 +39,7 @@
 
 👤 **eb-dev**
 
-* Website: OC
+* Website template & project definition : [OpenClassrooms](https://openclassrooms.com/fr/paths/185-developpeur-web)
 * Github: [@eb-dev](https://github.com/ipopop)
 
 ## Show your support
