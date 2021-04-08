@@ -729,7 +729,8 @@ footer p {
 .social,
 .links,
 .bloc-md > div:nth-child(1) > div:nth-child(1),
-#bloc-4-portfolio .container .row:nth-child(1) {
+#bloc-4-portfolio .container .row:nth-child(1),
+.map {
     display: flex;
     align-items: center;
     justify-content: center;
