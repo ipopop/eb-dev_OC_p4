@@ -739,6 +739,21 @@ footer p {
     margin: 2.2rem;
 }
 
+.map {
+    border: 1px solid #BBBBBB;
+    width: 90%; 
+    height: 350px;
+    margin-bottom: 0;
+}
+
+small {
+    margin: auto;
+    font-size: 100%;
+    width: 45%;
+    display: block;
+    text-align: center;
+}
+
 .social {
     width: 90vw;
     flex-wrap: nowrap;
