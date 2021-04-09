@@ -71,7 +71,8 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+.bloc-bg-texture::before,
+.bg-dots-bg::after {
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -84,6 +85,13 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity: .33;
+}
+
+.bg-dots-bg::after {
+    background-image: url("img/dots-bg.png");
+    background-size: 100px 100px;
+    opacity: .44;
 }
 
 .b-parallax {
@@ -811,6 +819,7 @@ h3 {
 
 h1 {
     color: #333333!important;
+    font-weight: 800;
 }
 
 h4 {
@@ -896,10 +905,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -919,6 +924,13 @@ h4 {
     text-rendering: auto;
     -moz-osx-font-smoothing: grayscale;
     color: #222222 !important;
+}
+
+#bloc-5-cta > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    position: relative;
+    z-index: auto;
 }
 
 @media (max-width: 1024px) {
