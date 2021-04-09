@@ -90,6 +90,10 @@ a:hover {
     opacity: .33;
 }
 
+#bloc-6::before {
+    background-color: transparent;
+}
+
 .bg-dots-bg::after {
     background-image: url("img/dots-bg.png");
     background-size: 100px 100px;
