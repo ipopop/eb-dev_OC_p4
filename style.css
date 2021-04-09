@@ -652,10 +652,11 @@ h6,
 p,
 label,
 .btn,
+input,
 a {
     font-family: "helvetica";
     font-weight: normal;
-    color: #575757!important;
+    color: #333333!important;
 }
 
 .container {
@@ -722,8 +723,9 @@ q {
     font-weight: 700;
 }
 
-footer p {
+footer h2 {
     margin: 2rem 0 0 0;
+    color: #333333!important;
 }
 
 .social,
@@ -852,7 +854,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f5ab89;
 }
 
 .tc-white {
@@ -860,8 +862,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #f5ab89;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
