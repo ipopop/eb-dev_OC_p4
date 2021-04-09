@@ -85,6 +85,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
+    background-color: #333;
     background-size: 280px 280px;
     opacity: .33;
 }
@@ -853,7 +854,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f5ab89;
+    background-color: #ffba9a;
 }
 
 .tc-white {
@@ -861,7 +862,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #f5ab89;
+    background: #ffba9a;
     color: #333333!important;
 }
 
@@ -879,7 +880,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #ffba9a!important;
 }
 
 .ltc-atomic-tangerine:hover {
