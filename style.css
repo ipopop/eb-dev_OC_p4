@@ -774,6 +774,7 @@ small {
 
 #bloc-2-services h2, #bloc-4-portfolio h2 {
     font-weight: 600;
+    margin: 0 auto 2rem;
 }
 
 #bloc-2-services .container:nth-child(1) > div:nth-child(1),
@@ -784,7 +785,6 @@ small {
 
 #bloc-2-services h2 {
     max-width: 535px;
-    margin: 0 auto 2rem;
 }
 
 #bloc-4-portfolio h2 {
