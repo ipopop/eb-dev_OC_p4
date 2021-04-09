@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 1.8rem !important;
 }
 
 a,
@@ -361,51 +362,18 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
-
 .nav > li > .dropdown a {
     background: none!important;
     display: block;
     padding: 14px 15px;
+}
+
+.nav > li a {
+    border-radius: 3rem;
+}
+
+.nav > li a:hover, .nav > li a:active, .nav > li a:focus {
+    background: #ffdccb !important;
 }
 
 nav .caret {
@@ -442,6 +410,11 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+}
+
+.sr-only {
+    color: white !important;
+    background: black !important;
 }
 
 .btn {
@@ -709,7 +682,7 @@ q {
     max-width: 560px;
     text-align: right;
     padding-top: 1rem;
-    font-size: 1.5rem;
+    margin: auto;
 }
 
 .tight-width-whitespace {
@@ -757,7 +730,7 @@ footer h2 {
 small {
     margin: auto;
     font-size: 100%;
-    width: 45%;
+    width: 75%;
     display: block;
     text-align: center;
 }
@@ -797,6 +770,19 @@ small {
 
 #bloc-4-portfolio h2 {
     max-width: 470px;
+}
+
+#bloc-4-portfolio h2,
+#bloc-4-portfolio h3,
+#bloc-4-portfolio p {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: .25rem;
+}
+
+#bloc-3-what-i-do h2,
+#bloc-3-what-i-do p {
+    text-shadow: 0px 0px 50px rgb(0, 0, 0);
 }
 
 h2 {
@@ -849,7 +835,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #82531ccf;
     padding: 40px 40px 40px 40px;
 }
 
@@ -931,6 +917,47 @@ h4 {
     font-weight: 600;
     position: relative;
     z-index: auto;
+}
+
+@media (min-width: 768px) {
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+    .nav > li .dropdown-menu a,
+    .nav > li .dropdown-menu a:hover {
+        color: #484848;
+    }
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
+    .nav-center {
+        text-align: center;
+    }
+    .nav-center .navbar-header {
+        width: 100%;
+    }
+    .nav-center .navbar-header,
+    .nav-center .navbar-brand,
+    .nav-center .nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .nav-center .site-navigation {
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .nav-center.mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1034,13 +1061,13 @@ h4 {
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        background: rgba(244, 243, 243, 0.91);
         text-align: left;
         padding-left: 15px;
         width: 100%;
     }
     .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+        background: rgb(253, 231, 221);
     }
     .dropdown .dropdown a .caret {
         float: none;
