@@ -730,8 +730,6 @@ footer h2 {
 
 .social,
 .links,
-.bloc-md > div:nth-child(1) > div:nth-child(1),
-#bloc-4-portfolio .container .row:nth-child(1),
 .map {
     display: flex;
     align-items: center;
@@ -776,11 +774,17 @@ small {
 
 #bloc-2-services h2, #bloc-4-portfolio h2 {
     font-weight: 600;
-    max-width: 625px;
 }
 
-#bloc-4-portfolio .container .row:nth-child(1) {
-    width: 90vw;
+#bloc-2-services .container:nth-child(1) > div:nth-child(1),
+#bloc-4-portfolio .container .row:nth-child(1) div:nth-child(1) {
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#bloc-2-services h2 {
+    max-width: 535px;
+    margin: 0 auto 2rem;
 }
 
 #bloc-4-portfolio h2 {
