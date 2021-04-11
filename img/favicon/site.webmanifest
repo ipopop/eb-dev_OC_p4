@@ -1,7 +1,6 @@
 {
     "name": "La Chouette Agence",
     "short_name": "ca",
-    "start_url": ".",
     "icons": [{
         "src": "https://github.com/ipopop/OC-P4-cool-agency/blob/main/img/favicon/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -18,6 +17,5 @@
       }],
     "theme_color": "#f5ab89",
     "background_color": "#ffffff",
-    "display": "standalone",
-    "prefer_related_applications": true
+    "display": "standalone"
 }
